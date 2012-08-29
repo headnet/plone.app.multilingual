@@ -31,7 +31,8 @@
     <configure zcml:condition="installed archetypes.multilingual">
         <include package="archetypes.multilingual" />
     </configure>
-
+    
+    <include package="plone.app.contentmenu" />
     <include package=".browser" />
 
     <adapter
